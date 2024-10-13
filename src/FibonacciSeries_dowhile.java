@@ -12,7 +12,7 @@ public class FibonacciSeries_dowhile {
         System.out.println("Fibonacci Series is as follows:");
 
         do {
-            System.out.print(" " + a + " ");
+            System.out.print(" " + b + " ");
             int sum = a + b;
             a = b;
             b = sum;

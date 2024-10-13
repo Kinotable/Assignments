@@ -10,7 +10,7 @@ public class FibonacciSeries {
         int b = 1;
         System.out.println("Fibonacci Series is as follows:");
         for (int i = 1; i <= nth; i++) {
-            System.out.print(" " + a + " ");
+            System.out.print(" " + b + " ");
             int sum = a + b;
             a = b;
             b = sum;
