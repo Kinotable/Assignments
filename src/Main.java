@@ -26,7 +26,14 @@ class Rectangle {
         this.area = l * b;
         this.perimeter = 2 * (l + b);
     }
+
+    public void calArea(){
+        area = l * b;
+        System.out.println(area);
+
+    }
 }
+
 
 class Triangle {
     float sideA;
@@ -68,7 +75,7 @@ public class Main {
             System.out.println("Enter the breadth: ");
             float b = s.nextFloat();
             Rectangle rectangle = new Rectangle(l, b);
-            System.out.println("Area: " + rectangle.area);
+            rectangle.calArea();
             System.out.println("Perimeter: " + rectangle.perimeter);
         } else if (choice == 3) {
             System.out.println("You chose to find the area and perimeter of triangle");
